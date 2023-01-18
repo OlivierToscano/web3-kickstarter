@@ -3,6 +3,7 @@
 ## Requierments
 
 Node v18 or above should be installed: [install Node](https://nodejs.org)
+
 Install Ganache from [Truffle suite](https://trufflesuite.com/ganache/) or Ganache cli `npm install -g ganache`
 
 ## Smart contract
@@ -34,7 +35,7 @@ Deploy
 node deploy.js
 ```
 
-Deploy result shoud print the contract address
+Deploy result should print the contract address and the owner address
 
 ```shell
 Attempting to deploy from account 0x561197f3FC62C97E61620eaF19A0Ebb7FED5E448
