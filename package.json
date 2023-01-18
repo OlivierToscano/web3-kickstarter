@@ -1,0 +1,21 @@
+{
+  "name": "kickstarter",
+  "version": "1.0.0",
+  "description": "Web3 / Bockchain Kickstarter project",
+  "main": "compile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": ["ERC20", "WEB3", "KICKSTARTER"],
+  "author": "Olivier Toscano",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.11",
+    "fs-extra": "^10.1.0",
+    "dotenv": "^16.0.3",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.15",
+    "web3": "^1.7.4"
+  }
+}
